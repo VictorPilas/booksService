@@ -39,7 +39,7 @@ docker-compose up -d
 La aplicacion estara disponible en:
 
 ```
-http://localhost:8080
+http://localhost:8081
 ```
 
 ## Documentacion API
@@ -47,7 +47,7 @@ http://localhost:8080
 Accede a la documentaci0n Swagger en:
 
 ```
-http://localhost:8080/swagger-ui/index.html
+http://localhost:8081/swagger-ui/index.html
 ```
 ## Docker
 
@@ -58,7 +58,7 @@ docker-compose up -d
 ## Estructura del proyecto 
 
 - `controller/`: Controladores REST (BooksController).
-- `service/`: L¨®gica de negocio (BooksService).
+- `service/`: Logica de negocio (BooksService).
 - `model/`: Clases de dominio (Book, Author, etc.).
 - `exception/`: Manejo de excepciones personalizadas.
 - `resources/books.json`: Fuente de datos de libros.
